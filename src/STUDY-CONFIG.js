@@ -974,14 +974,13 @@ var whiteFirst = [
     }
   ],
   status_greatjob,
-  attitudes,
   attitudes_intro,
+  attitudes,
   done
 ];
 
 var blackFirst = [
   startForm,
-  endForm,
   startGame,
   dg_intro,
   dg_black,
@@ -1003,8 +1002,8 @@ var blackFirst = [
     }
   ],
   status_greatjob,
-  attitudes,
   attitudes_intro,
+  attitudes,
   done
 ];
 
