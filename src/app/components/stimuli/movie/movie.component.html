@@ -1,4 +1,4 @@
-<video (playing)="videoStarted()" (ended)="videoEnded()" autoplay="autoplay" preload="auto"
+<video (playing)="videoStarted()" (ended)="videoEnded()" autoplay="autoplay" preload="auto" width="1198px"
   style="position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%);" (timeupdate)="enableResponse()"  #thevideo>
   <source [src]="parameters?.filename" type='video/mp4' />
 </video>

@@ -9,7 +9,7 @@ var startGame = [
         parameters: {
           filename: '../../../assets/picture/start.jpeg',
           coordinates: [
-            { value: 'started', shape: "rect", coordinates: "0, 0, 1024, 768" },
+            { value: 'started', shape: "rect", coordinates: "0, 0, 1200, 900" },
           ],
         },
       }
@@ -31,7 +31,7 @@ var dg_intro = [
         parameters: {
           filename: '../../../assets/movie/dggive.mp4',
           coordinates: [
-            { value: 'left', shape: "rect", coordinates: "0, 56, 370, 728" },
+            { value: 'give', shape: "rect", coordinates: "160, 591, 434, 867" },
           ],
         }
       }
@@ -58,7 +58,7 @@ var dg_intro = [
         parameters: {
           filename: '../../../assets/movie/dgkeep.mp4',
           coordinates: [
-            { value: 'left', shape: "rect", coordinates: "0, 56, 370, 728" },
+            { value: 'keep', shape: "rect", coordinates: "834, 602, 1082, 875" },
           ],
         }
       }
@@ -97,8 +97,8 @@ var dg_intro = [
         parameters: {
           filename: '../../../assets/movie/dgbelong.mp4',
           coordinates: [
-            { value: 'correct', shape: "rect", coordinates: "0, 56, 370, 728" },
-            { value: 'wrong', shape: "rect", coordinates: "0, 56, 370, 728" },
+            { value: 'wrong', shape: "rect", coordinates: "173,591,462,882" },
+            { value: 'correct', shape: "rect", coordinates: "810,594,1064,873" },
           ],
         }
       }
@@ -173,7 +173,8 @@ var dg_white = [
         parameters: {
           filename: '../../../assets/movie/dgwhite1.mp4',
           coordinates: [
-            { value: 'left', shape: "rect", coordinates: "0, 56, 370, 728" },
+            { value: 'give', shape: "rect", coordinates: "58,601,332,878" },
+            { value: 'keep', shape: "rect", coordinates: "831,594,1085,873" },
           ],
         }
       }
@@ -188,8 +189,8 @@ var dg_white = [
         parameters: {
           filename: '../../../assets/movie/dgwhite2.mp4',
           coordinates: [
-            { value: 'left', shape: "rect", coordinates: "0, 56, 370, 728" },
-          ],
+            { value: 'give', shape: "rect", coordinates: "58,601,332,878" },
+            { value: 'keep', shape: "rect", coordinates: "831,594,1085,873" },],
           delayResponse: "0",
         }
       }
@@ -204,9 +205,8 @@ var dg_white = [
         parameters: {
           filename: '../../../assets/movie/dgwhite3.mp4',
           coordinates: [
-            { value: 'correct', shape: "rect", coordinates: "0, 56, 370, 728" },
-            { value: 'wrong', shape: "rect", coordinates: "0, 56, 370, 728" },
-          ],
+            { value: 'give', shape: "rect", coordinates: "58,601,332,878" },
+            { value: 'keep', shape: "rect", coordinates: "831,594,1085,873" },],
           delayResponse: "0",
         }
       }
@@ -221,9 +221,8 @@ var dg_white = [
         parameters: {
           filename: '../../../assets/movie/dgwhite4.mp4',
           coordinates: [
-            { value: 'correct', shape: "rect", coordinates: "0, 56, 370, 728" },
-            { value: 'wrong', shape: "rect", coordinates: "0, 56, 370, 728" },
-          ],
+            { value: 'give', shape: "rect", coordinates: "58,601,332,878" },
+            { value: 'keep', shape: "rect", coordinates: "831,594,1085,873" },],
           delayResponse: "0",
         }
       }
@@ -256,8 +255,8 @@ var dg_black = [
         parameters: {
           filename: '../../../assets/movie/dgblack1.mp4',
           coordinates: [
-            { value: 'left', shape: "rect", coordinates: "0, 56, 370, 728" },
-          ],
+            { value: 'give', shape: "rect", coordinates: "58,601,332,878" },
+            { value: 'keep', shape: "rect", coordinates: "831,594,1085,873" },],
         }
       }
     ]
@@ -271,8 +270,8 @@ var dg_black = [
         parameters: {
           filename: '../../../assets/movie/dgblack2.mp4',
           coordinates: [
-            { value: 'left', shape: "rect", coordinates: "0, 56, 370, 728" },
-          ],
+            { value: 'give', shape: "rect", coordinates: "58,601,332,878" },
+            { value: 'keep', shape: "rect", coordinates: "831,594,1085,873" },],
           delayResponse: "0",
         }
       }
@@ -287,9 +286,8 @@ var dg_black = [
         parameters: {
           filename: '../../../assets/movie/dgblack3.mp4',
           coordinates: [
-            { value: 'correct', shape: "rect", coordinates: "0, 56, 370, 728" },
-            { value: 'wrong', shape: "rect", coordinates: "0, 56, 370, 728" },
-          ],
+            { value: 'give', shape: "rect", coordinates: "58,601,332,878" },
+            { value: 'keep', shape: "rect", coordinates: "831,594,1085,873" },],
           delayResponse: "0",
         }
       }
@@ -304,9 +302,8 @@ var dg_black = [
         parameters: {
           filename: '../../../assets/movie/dgblack4.mp4',
           coordinates: [
-            { value: 'correct', shape: "rect", coordinates: "0, 56, 370, 728" },
-            { value: 'wrong', shape: "rect", coordinates: "0, 56, 370, 728" },
-          ],
+            { value: 'give', shape: "rect", coordinates: "58,601,332,878" },
+            { value: 'keep', shape: "rect", coordinates: "831,594,1085,873" },],
           delayResponse: "0",
         }
       }
@@ -376,7 +373,7 @@ var re_intro = [
         parameters: {
           filename: '../../../assets/movie/regive.mp4',
           coordinates: [
-            { value: 'left', shape: "rect", coordinates: "0, 56, 370, 728" },
+            { value: 'give', shape: "rect", coordinates: "834,602,1083,875" },
           ],
         }
       }
@@ -403,7 +400,9 @@ var re_intro = [
         parameters: {
           filename: '../../../assets/movie/rekeep.mp4',
           coordinates: [
-            { value: 'left', shape: "rect", coordinates: "0, 56, 370, 728" },
+            {
+              value: 'keep', shape: "rect", coordinates: "160,591,434,867"
+            },
           ],
         }
       }
@@ -442,8 +441,8 @@ var re_intro = [
         parameters: {
           filename: '../../../assets/movie/rebelong.mp4',
           coordinates: [
-            { value: 'correct', shape: "rect", coordinates: "0, 56, 370, 728" },
-            { value: 'wrong', shape: "rect", coordinates: "0, 56, 370, 728" },
+            { value: 'wrong', shape: "rect", coordinates: "834,602,1083,875" },
+            { value: 'correct', shape: "rect", coordinates: "160,591,434,867" },
           ],
         }
       }
@@ -518,7 +517,8 @@ var re_white = [
         parameters: {
           filename: '../../../assets/movie/rewhite1.mp4',
           coordinates: [
-            { value: 'left', shape: "rect", coordinates: "0, 56, 370, 728" },
+            { value: 'keep', shape: "rect", coordinates: "58,601,332,878" },
+            { value: 'give', shape: "rect", coordinates: "831,594,1085,873" },
           ],
         }
       }
@@ -533,7 +533,8 @@ var re_white = [
         parameters: {
           filename: '../../../assets/movie/rewhite2.mp4',
           coordinates: [
-            { value: 'left', shape: "rect", coordinates: "0, 56, 370, 728" },
+            { value: 'keep', shape: "rect", coordinates: "58,601,332,878" },
+            { value: 'give', shape: "rect", coordinates: "831,594,1085,873" },
           ],
           delayResponse: "0",
         }
@@ -549,8 +550,8 @@ var re_white = [
         parameters: {
           filename: '../../../assets/movie/rewhite3.mp4',
           coordinates: [
-            { value: 'correct', shape: "rect", coordinates: "0, 56, 370, 728" },
-            { value: 'wrong', shape: "rect", coordinates: "0, 56, 370, 728" },
+            { value: 'keep', shape: "rect", coordinates: "58,601,332,878" },
+            { value: 'give', shape: "rect", coordinates: "831,594,1085,873" },
           ],
           delayResponse: "0",
         }
@@ -566,8 +567,8 @@ var re_white = [
         parameters: {
           filename: '../../../assets/movie/rewhite4.mp4',
           coordinates: [
-            { value: 'correct', shape: "rect", coordinates: "0, 56, 370, 728" },
-            { value: 'wrong', shape: "rect", coordinates: "0, 56, 370, 728" },
+            { value: 'keep', shape: "rect", coordinates: "58,601,332,878" },
+            { value: 'give', shape: "rect", coordinates: "831,594,1085,873" },
           ],
           delayResponse: "0",
         }
@@ -601,7 +602,8 @@ var re_black = [
         parameters: {
           filename: '../../../assets/movie/reblack1.mp4',
           coordinates: [
-            { value: 'left', shape: "rect", coordinates: "0, 56, 370, 728" },
+            { value: 'keep', shape: "rect", coordinates: "58,601,332,878" },
+            { value: 'give', shape: "rect", coordinates: "831,594,1085,873" },
           ],
         }
       }
@@ -616,7 +618,8 @@ var re_black = [
         parameters: {
           filename: '../../../assets/movie/reblack2.mp4',
           coordinates: [
-            { value: 'left', shape: "rect", coordinates: "0, 56, 370, 728" },
+            { value: 'keep', shape: "rect", coordinates: "58,601,332,878" },
+            { value: 'give', shape: "rect", coordinates: "831,594,1085,873" },
           ],
           delayResponse: "0",
         }
@@ -632,8 +635,8 @@ var re_black = [
         parameters: {
           filename: '../../../assets/movie/reblack3.mp4',
           coordinates: [
-            { value: 'correct', shape: "rect", coordinates: "0, 56, 370, 728" },
-            { value: 'wrong', shape: "rect", coordinates: "0, 56, 370, 728" },
+            { value: 'keep', shape: "rect", coordinates: "58,601,332,878" },
+            { value: 'give', shape: "rect", coordinates: "831,594,1085,873" },
           ],
           delayResponse: "0",
         }
@@ -649,8 +652,8 @@ var re_black = [
         parameters: {
           filename: '../../../assets/movie/reblack4.mp4',
           coordinates: [
-            { value: 'correct', shape: "rect", coordinates: "0, 56, 370, 728" },
-            { value: 'wrong', shape: "rect", coordinates: "0, 56, 370, 728" },
+            { value: 'keep', shape: "rect", coordinates: "58,601,332,878" },
+            { value: 'give', shape: "rect", coordinates: "831,594,1085,873" },
           ],
           delayResponse: "0",
         }
@@ -720,7 +723,7 @@ var status_intro = [
       {
         type: 'movie',
         parameters: {
-          filename: '../../../assets/movie/status1intro.mp4',
+          filename: '../../../assets/movie/statusintro.mp4',
         }
       }
     ]
@@ -740,7 +743,8 @@ var status1 = [
         parameters: {
           filename: '../../../assets/movie/status1left.mp4',
           coordinates: [
-            { value: 'left', shape: "rect", coordinates: "0, 56, 370, 728" },
+            { value: 'black', shape: "rect", coordinates: "510,468,723,669" },
+            { value: 'white', shape: "rect", coordinates: "510,669,723,860" },
           ],
         }
       }
@@ -755,7 +759,8 @@ var status1 = [
         parameters: {
           filename: '../../../assets/movie/status1right.mp4',
           coordinates: [
-            { value: 'left', shape: "rect", coordinates: "0, 56, 370, 728" },
+            { value: 'black', shape: "rect", coordinates: "510,468,723,669" },
+            { value: 'white', shape: "rect", coordinates: "510,669,723,860" },
           ],
         }
       }
@@ -776,7 +781,8 @@ var status2 = [
         parameters: {
           filename: '../../../assets/movie/status2left.mp4',
           coordinates: [
-            { value: 'left', shape: "rect", coordinates: "0, 56, 370, 728" },
+            { value: 'black', shape: "rect", coordinates: "510,468,723,669" },
+            { value: 'white', shape: "rect", coordinates: "510,669,723,860" },
           ],
         }
       }
@@ -791,7 +797,8 @@ var status2 = [
         parameters: {
           filename: '../../../assets/movie/status2right.mp4',
           coordinates: [
-            { value: 'left', shape: "rect", coordinates: "0, 56, 370, 728" },
+            { value: 'black', shape: "rect", coordinates: "510,468,723,669" },
+            { value: 'white', shape: "rect", coordinates: "510,669,723,860" },
           ],
         }
       }
@@ -866,7 +873,10 @@ var attitudes = [
         parameters: {
           filename: '../../../assets/movie/ftwhite1.mp4',
           coordinates: [
-            { value: 'left', shape: "rect", coordinates: "0, 56, 370, 728" },
+            { value: '1', shape: "rect", coordinates: "84,658,279,854" },
+            { value: '2', shape: "rect", coordinates: "355,660,552,856" },
+            { value: '3', shape: "rect", coordinates: "640,660,833,848" },
+            { value: '4', shape: "rect", coordinates: "910,660,1115,859" },
           ],
         }
       }
@@ -881,7 +891,10 @@ var attitudes = [
         parameters: {
           filename: '../../../assets/movie/ftwhite2.mp4',
           coordinates: [
-            { value: 'left', shape: "rect", coordinates: "0, 56, 370, 728" },
+            { value: '1', shape: "rect", coordinates: "84,658,279,854" },
+            { value: '2', shape: "rect", coordinates: "355,660,552,856" },
+            { value: '3', shape: "rect", coordinates: "640,660,833,848" },
+            { value: '4', shape: "rect", coordinates: "910,660,1115,859" },
           ],
         }
       }
@@ -896,7 +909,10 @@ var attitudes = [
         parameters: {
           filename: '../../../assets/movie/ftblack1.mp4',
           coordinates: [
-            { value: 'left', shape: "rect", coordinates: "0, 56, 370, 728" },
+            { value: '1', shape: "rect", coordinates: "84,658,279,854" },
+            { value: '2', shape: "rect", coordinates: "355,660,552,856" },
+            { value: '3', shape: "rect", coordinates: "640,660,833,848" },
+            { value: '4', shape: "rect", coordinates: "910,660,1115,859" },
           ],
         }
       }
@@ -911,7 +927,10 @@ var attitudes = [
         parameters: {
           filename: '../../../assets/movie/ftblack2.mp4',
           coordinates: [
-            { value: 'left', shape: "rect", coordinates: "0, 56, 370, 728" },
+            { value: '1', shape: "rect", coordinates: "84,658,279,854" },
+            { value: '2', shape: "rect", coordinates: "355,660,552,856" },
+            { value: '3', shape: "rect", coordinates: "640,660,833,848" },
+            { value: '4', shape: "rect", coordinates: "910,660,1115,859" },
           ],
         }
       }
@@ -919,6 +938,7 @@ var attitudes = [
   },
 ]
 
+// end video
 var done = [
   {
     name: "done"
@@ -937,6 +957,7 @@ var done = [
   },
 ]
 
+// form placeholder
 var startForm = {
   type: 'action',
   id: 'startForm',

@@ -31,8 +31,11 @@ export class MovieComponent implements Stimuli, Responsive, OnInit {
   videoStarted() {
     // setting width and height for "invisible picture"
     if (this.parameters.coordinates) {
-      this.pictureParameters.width = this.thevideo.nativeElement.videoWidth;
-      this.pictureParameters.height = this.thevideo.nativeElement.videoHeight;
+      this.pictureParameters.width = 1198;
+      this.pictureParameters.height = 898;
+      // native video width did not match native image width with this particular stimuli so hardcoded dimensions
+      // this.pictureParameters.width = this.thevideo.nativeElement.videoWidth;
+      // this.pictureParameters.height = this.thevideo.nativeElement.videoHeight;
     }
   }
 
