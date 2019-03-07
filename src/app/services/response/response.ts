@@ -38,6 +38,10 @@ export class Response {
   getCSVHeader() {
     const keys = this.getKeys();
     let output = keys.reduce((accum, current, idx) => {
+      if (current === 'block') {
+        return '';
+      }
+
       if (idx === 1) {
         accum = accum + ',';
       }
@@ -52,6 +56,10 @@ export class Response {
   toCSV() {
     const keys = this.getKeys();
     const output = keys.reduce((accum, cur, idx) => {
+      if (cur === 'block') {
+        return '';
+      }
+
       if (idx === 1) {
         accum = this.data[accum].toString() + ',';
       }
