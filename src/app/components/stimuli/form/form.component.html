@@ -4,12 +4,6 @@
       Participant ID:<br>
       <input ngModel type="text" name="participantID"><br>
       <button type="submit" class="submitButton">Submit</button>
-  </form>
-</div>
-
-
-<div *ngIf="parameters?.end;">
-    <form #f="ngForm" (ngSubmit)="onSubmit(f)" >
       Gender: <br>
       <select ngModel name="gender">
         <option value="male">Male</option>
@@ -17,9 +11,26 @@
         <option value="other">Other</option>
       </select><br>
       Age: <br>
-      <input ngModel type="text" name="age"><br>
+      <select ngModel name="age">
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+      </select><br>
+  </form>
+</div>
+
+
+<div *ngIf="parameters?.end;">
+    <form #f="ngForm" (ngSubmit)="onSubmit(f)" >
+      Participant ID: <br>
+      <input ngModel type="text" name="participantID"><br>
+      Researcher ID: <br>
+      <input ngModel type="text" name="researcherID"><br>
+      Date of Birth (MM/DD/YYYY): <br>
+      <input ngModel type="text" name="dob"><br>
       Comments: <br>
       <input ngModel type="text" name="comments"><br>
       <button type="submit" class="submitButton">Submit</button>
   </form>
 </div>
+
