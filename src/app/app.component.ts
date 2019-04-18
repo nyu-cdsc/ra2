@@ -78,7 +78,7 @@ export class AppComponent implements OnInit {
   }
 
   resetGame() {
-    window.location.reload();
+    this.studyEnded();
   }
 
   frameResponse(message) {
