@@ -1762,12 +1762,50 @@ var B_blackFirst = [
   done
 ];
 
+var assignCondition = [
+  {
+    type: 'action',
+    id: 'assignCondition',
+    stimuli: [
+      {
+        type: 'picture',
+        parameters: {
+          filename: '../../../assets/picture/gender.jpg',
+          coordinates: [
+            { value: 'boy', shape: "rect", coordinates: "100, 200, 450, 867" },
+            { value: 'girl', shape: "rect", coordinates: "750, 200, 1034, 867" },
+          ],
+        }
+      }
+    ]
+  },
+  {
+    type: 'conditional',
+    id: 'assignCondition',
+    items: {
+      'boy': [
+        B_blackFirst,
+        B_whiteFirst,
+        {
+          type: 'control',
+          pickOne: true,
+        }
+      ],
+      'girl': [
+        G_whiteFirst,
+        G_blackFirst,
+        {
+          type: 'control',
+          pickOne: true,
+        }
+      ],
+    }
+  },
+]
+
 export const Project = {
   conditions: [
-    G_whiteFirst,
-    G_blackFirst,
-    B_blackFirst,
-    B_whiteFirst
+    assignCondition
   ],
   name: "ra2",
   ended: {
