@@ -1,1 +1,1 @@
-This application (currently under development) is used to design and run psychological experiments. 
+This study looks at how children share resources with others. 
