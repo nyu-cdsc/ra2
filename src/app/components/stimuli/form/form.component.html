@@ -3,7 +3,6 @@
     <form #f="ngForm" (ngSubmit)="onSubmit(f)" >
       Participant ID:<br>
       <input ngModel type="text" name="participantID"><br>
-      <button type="submit" class="submitButton">Submit</button>
       Gender: <br>
       <select ngModel name="gender">
         <option value="male">Male</option>
@@ -16,6 +15,7 @@
         <option value="5">5</option>
         <option value="6">6</option>
       </select><br>
+      <button type="submit" class="submitButton">Submit</button>
   </form>
 </div>
 
