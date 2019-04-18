@@ -38,8 +38,9 @@ export class Response {
   getCSVHeader() {
     const keys = this.getKeys();
     let output = keys.reduce((accum, current, idx) => {
+      console.log(current, 'what is current?');
       if (current === 'block') {
-        return '';
+        return accum;
       }
 
       if (idx === 1) {
@@ -56,12 +57,14 @@ export class Response {
   toCSV() {
     const keys = this.getKeys();
     const output = keys.reduce((accum, cur, idx) => {
+      console.log(accum, cur, idx, 'in to CSV');
       if (cur === 'block') {
-        return '';
+        return accum;
       }
 
       if (idx === 1) {
         accum = this.data[accum].toString() + ',';
+        console.log(accum, 'idx = 1');
       }
 
       let temp = '';
@@ -75,7 +78,7 @@ export class Response {
       }
       // for values that are lists - todo move thhis to their toString()
 
-
+      console.log(accum, temp, 'before the return');
       return (accum += temp + ',');
     });
 
